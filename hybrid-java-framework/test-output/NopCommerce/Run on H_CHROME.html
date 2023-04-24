@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>TestNG:  Run on H_CHROME</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on H_CHROME</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Mar 21 15:26:26 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21646 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.test.commons.Common_01_Register2.TC_Register_Login()'><b>TC_Register_Login</b><br>Test class: com.nopcommerce.test.commons.Common_01_Register2<br/>
+<a href="#Output-1620187937" onClick='toggleBox("Output-1620187937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620187937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620187937">
+[INFO ] [2023-03-21 15:26:30,613] Pre-condition - Step 01: Go to Homepage
+<br><br/>
+[INFO ] [2023-03-21 15:26:30,623] Pre-condition - Step 02: Click to header Register Link to navigate to Register page
+<br><br/>
+[INFO ] [2023-03-21 15:26:37,741] Pre-condition - Step 03: Check to Female radio button
+<br><br/>
+[INFO ] [2023-03-21 15:26:37,908] Pre-condition - Step 04: Input to [First name] textbox with value '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,053] Pre-confition - Step 05: Input to [Last name] textbox with value '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,196] Pre-condition - Step 06: Select day in [Date of birth] dropdown list with value = '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,320] Pre-condition - Step 07: Select month in [Date of birth] dropdown list with value = '' +  
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,439] Pre-condition - Step 08: Select year in [Date of birth] dropdown list with value ='' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,552] Pre-condition - Step 09: Input to [Email] textbox with value = '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,717] Pre-condition - Step 10: Input to [Company name] textbox with value = '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,852] Pre - condition - Step 11: Input to [Password] textbox with value = '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:38,992] Pre-condition - Step 12: Input to [Confirm password] with value = '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:39,153] Pre-condition - Step 13: Click to [REGISTER] button
+<br><br/>
+[INFO ] [2023-03-21 15:26:39,844] Pre-condition - Step 14: Verify success message display
+<br><br/>
+[INFO ] [2023-03-21 15:26:39,906] Pre-condition - Step 15: Click to header Login link to navigate to Login page
+<br><br/>
+[INFO ] [2023-03-21 15:26:46,344] Pre-condition - Step 16: Input to [Email] textbox with value '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:46,640] Pre-condition - Step 17: Input to [Password] textbox with value '' + 
+<br><br/>
+[INFO ] [2023-03-21 15:26:46,803] Pre-condition - Step 18: Click to [LOG IN] textbox with value '' + 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>com.nopcommerce.test.commons.Common_01_Register2@6f19ac19</td></tr>
+</table><p>
+</body>
+</html>

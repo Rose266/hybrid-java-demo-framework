@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jqueryscript]">
+  <parameter name="dynamicGridPageUrl" value="https://www.jqueryscript.net/demo/jQuery-Dynamic-Data-Grid-Plugin-appendGrid/"/>
+  <parameter name="crudGridPageUrl" value="https://www.jqueryscript.net/demo/CRUD-Data-Grid-Plugin-jQuery-Quickgrid/"/>
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jqueryscript.Level_12_Handle_Data_Table_Grid">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="User_04"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.jqueryscript.Level_12_Handle_Data_Table_Grid -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+</suite> <!-- Failed suite [Jqueryscript] -->

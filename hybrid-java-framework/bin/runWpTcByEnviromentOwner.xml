@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="false" name="Wordpress">
+	<listeners>
+		<listener class-name="review.commons.RVMethodListener"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<parameter name="enviroment" value="dev" />
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<!-- <class name = "com.wordpress.commons.Admin_Login_Cookie"/>-->
+			<class name="com.review.wp.db.RV_Level_X_MultiEnviromentOwner" />
+		</classes>
+	</test>
+	<test name="Run on CHROME" >
+	<parameter name="browser" value="chrome" />
+	<classes>
+		<!-- <class name = "com.wordpress.commons.Admin_Login_Cookie"/>-->
+		<class name="com.review.wp.db.RV_Level_X_MultiEnviromentOwner" />
+	</classes>
+	</test>
+</suite>

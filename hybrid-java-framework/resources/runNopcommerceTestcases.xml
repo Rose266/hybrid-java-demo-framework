@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="NopCommerce">
+
+	
+<listeners>
+		<listener class-name="review.commons.RVMethodListener"></listener>
+		<!-- 
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+-->
+
+
+		
+		
+	</listeners>
+
+
+	<parameter name="userUrl" value="https://demo.nopcommerce.com" />
+	<parameter name="adminUrl" value="https://admin-demo.nopcommerce.com" />
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.review.nopcommerce.RV_Level_X_FakeData" />
+		</classes>
+	</test>
+
+
+</suite>

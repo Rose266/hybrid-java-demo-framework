@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.453">
+  <properties />
+  
+  
+            <testcase name="User_02_Login" time="1.548" classname="com.nopcommerce.users.Level_16_Apply_Log_ReportNG" />
+                <testcase name="User_01_Register" time="3.905" classname="com.nopcommerce.users.Level_16_Apply_Log_ReportNG" />
+      
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jquery]">
+  <parameter name="uploadFilePageUrl" value="https://blueimp.github.io/jQuery-File-Upload/"/>
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.jqueryscript.Level_13_Upload_Files">
+        <methods>
+          <include name="TC_02_Upload_Multiple_File"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.jqueryscript.Level_13_Upload_Files -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+</suite> <!-- Failed suite [Jquery] -->

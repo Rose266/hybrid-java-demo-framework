@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wordpress]">
+  <parameter name="enviroment" value="dev"/>
+  <listeners>
+    <listener class-name="review.commons.RVMethodListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.review.wp.db.RV_Level_X_MultiEnviromentOwner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_View_Users"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.review.wp.db.RV_Level_X_MultiEnviromentOwner -->
+    </classes>
+  </test> <!-- Run on FIREFOX(failed) -->
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.review.wp.db.RV_Level_X_MultiEnviromentOwner">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="TC_01_View_Users"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.review.wp.db.RV_Level_X_MultiEnviromentOwner -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+</suite> <!-- Failed suite [Wordpress] -->

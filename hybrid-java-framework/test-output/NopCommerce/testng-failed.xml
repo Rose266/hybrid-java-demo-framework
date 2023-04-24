@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce]" guice-stage="DEVELOPMENT">
+  <parameter name="adminUrl" value="https://admin-demo.nopcommerce.com"/>
+  <parameter name="userUrl" value="https://demo.nopcommerce.com"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on Safari(failed)">
+    <parameter name="osVersion" value="Ventura"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="osName" value="OS X"/>
+    <classes>
+      <class name="com.nopcommerce.cloud.Level_23_Cloud">
+        <methods>
+          <include name="initBeforeSuit"/>
+          <include name="afterClass"/>
+          <include name="User_01_Register"/>
+          <include name="beforeClass"/>
+          <include name="User_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.cloud.Level_23_Cloud -->
+    </classes>
+  </test> <!-- Run on Safari(failed) -->
+  <test thread-count="5" name="Run on CHROME(failed)">
+    <parameter name="osVersion" value="11"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="osName" value="Windows"/>
+    <classes>
+      <class name="com.nopcommerce.cloud.Level_23_Cloud">
+        <methods>
+          <include name="initBeforeSuit"/>
+          <include name="afterClass"/>
+          <include name="User_01_Register"/>
+          <include name="beforeClass"/>
+          <include name="User_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.cloud.Level_23_Cloud -->
+    </classes>
+  </test> <!-- Run on CHROME(failed) -->
+</suite> <!-- Failed suite [NopCommerce] -->

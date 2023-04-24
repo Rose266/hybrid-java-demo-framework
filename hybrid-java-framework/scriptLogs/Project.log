@@ -1,0 +1,108 @@
+[INFO ] [2023-04-04 14:12:28,111] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:12:28,462] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:12:28,571] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:12:33,952] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:12:41,022] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:12:41,186] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:12:53,269] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:12:53,711] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:12:54,028] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:12:58,346] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:13:00,529] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:13:00,685] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:18:48,981] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:18:49,326] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:18:49,432] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:18:53,496] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:18:56,140] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:18:56,390] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:18:57,284] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:18:57,286] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:18:57,471] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:19:06,852] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:19:06,910] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:19:06,964] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 14:19:13,037] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:19:13,406] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:19:13,771] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:19:18,100] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:19:20,314] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:19:20,417] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:19:20,423] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:19:20,424] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:19:20,754] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:19:29,287] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:19:29,361] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:19:29,366] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 14:25:54,128] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:25:54,628] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:25:54,886] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:26:00,317] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:26:04,186] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:26:04,541] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:26:05,403] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:26:05,406] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:26:05,573] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:26:15,880] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:26:15,934] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:26:15,987] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 14:26:24,737] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:26:25,558] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:26:25,984] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:26:32,517] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:26:35,756] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:26:35,852] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:26:35,858] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:26:35,858] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:26:36,295] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:26:46,653] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:26:46,724] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:26:46,730] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 14:34:14,361] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:34:14,809] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:34:15,106] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:34:20,590] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:34:25,975] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:34:26,269] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:34:27,401] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:34:27,404] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:34:27,585] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:34:37,469] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:34:37,551] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:34:37,609] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 14:34:48,721] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 14:34:49,902] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 14:34:50,649] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 14:34:58,224] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 14:35:02,189] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 14:35:02,527] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 14:35:02,534] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 14:35:02,534] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 14:35:02,837] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 14:35:13,246] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 14:35:13,444] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 14:35:13,449] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 19:54:55,084] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 19:54:55,468] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 19:54:55,581] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 19:55:00,849] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 19:55:03,575] View_Users - Step 02: Get all users from adminUI
+[INFO ] [2023-04-04 19:55:03,730] View_Users - Step 03: Get all users from database
+[INFO ] [2023-04-04 19:55:04,722] View_Users - Step 04: Verify the user's number matching
+[INFO ] [2023-04-04 19:55:04,725] View_Users - Step 05: Input to search textbox
+[INFO ] [2023-04-04 19:55:04,812] View Users - Step 06: Click to [Search Users] button
+[INFO ] [2023-04-04 19:55:14,974] View_Users - Step 07: Get the number of users from adminUI  with userName = ''
+[INFO ] [2023-04-04 19:55:15,048] View_Users - Step 08: Get the number of users from database userName = ''
+[INFO ] [2023-04-04 19:55:15,111] View_Users - Step 09: Verify the user's number matching
+[INFO ] [2023-04-04 20:15:42,846] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 20:15:43,547] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 20:15:43,707] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 20:15:45,943] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 20:32:14,624] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 20:32:15,098] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 20:32:15,194] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 20:32:18,847] View_Users - Step 01: Click to Users menu and go to Users page
+[INFO ] [2023-04-04 20:32:24,126] Pre-condition - Step 01: Input into UserName textbox
+[INFO ] [2023-04-04 20:32:24,521] Pre-condition - Step 02: Input into Password textbox
+[INFO ] [2023-04-04 20:32:24,824] Pre-condition - Step 03: Click to button [Log In]
+[INFO ] [2023-04-04 20:32:25,708] View_Users - Step 01: Click to Users menu and go to Users page
